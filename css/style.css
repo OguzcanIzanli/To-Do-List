@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 65%;
+  margin: auto;
+  font-family: sans-serif, monospace;
+}
+
+img {
+  background-color: white;
+}
+
+/* Style Header */
+.header {
+  background-color: #ffb545;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Input Button in the Header */
+.inputButton {
+  padding: 10px;
+  width: 20%;
+  background: #f1f1f1;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-width: 0px;
+}
+
+.inputButton:hover {
+  background-color: rgb(209, 208, 208);
+}
+
+/* Text Input in the Header */
+input {
+  margin: 0;
+  border: none;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the list (remove margins and bullets, etc) */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the list items */
+li {
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  /* list-style-type: none; */
+  transition: 0.3s;
+  padding: 12px 8px 12px 40px;
+  background-color: #ececec;
+  /* text-decoration: none; */
+  color: black;
+  /* display: block; */
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+}
+
+ul li:hover {
+  background: rgb(209, 208, 208); /* changes color when cursor on it */
+}
+
+li:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+/* List Close Button */
+.listCloseButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  cursor: pointer;
+  border-width: 0px;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.listCloseButton:hover {
+  background-color: #ffb545;
+  color: white;
+}
+
+ul li.checked {
+  background: #276678;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+p {
+  float: left;
+}
