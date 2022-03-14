@@ -1,2 +1,4 @@
 # JavaScript - To Do List
-![to-do-list](https://user-images.githubusercontent.com/95178772/157069829-c49bec62-6319-488d-a7c7-e08d7d494be1.png)
+HTML, CSS, Bootstrap, JavaScript ve Local Storage kullanılarak yapılacaklar listesi oluşturuldu.
+
+![webgif](https://user-images.githubusercontent.com/95178772/158211363-2217c8c9-5da6-465e-85b5-0bb89fdbe339.gif)
